@@ -13,5 +13,7 @@ Also the custom style "AppTheme.GradientStatusBar" both in style.xml and Manifes
 Credits
 -------
 Author: [Ahmed Faisal](https://github.com/afrussel)
+
 Dont forget to give 5 star. 😉😀😎
+
 ![screenshot](https://github.com/afrussel/Gradient_toolbar_statusbar/blob/master/gradient_statusbar_toolbar.png "screenshot")
