@@ -1,24 +1,27 @@
-# Android Gradient toolbar and Statusbar
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
 
-This is pretty common in iOS, gradient toolbar bbut it's rare in Android.  However, there are hacks to combine status bar and toolbar. 
-But we can make it simpley using a custom until. Just take a look of this project and we can get a proper idea that how to use this:
+buildscript {
+    repositories {
+        google()
+        jcenter()
 
-This code is working from API 21 and above
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.0'
 
-Usage
------
-Just change BaseStatusBar backgound as per your requirements. Dont forget to change your ActionBar style. Use this "Theme.AppCompat.Light.NoActionBar"
-Also the custome style "AppTheme.GradientStatusBar" both in style.xml and Manifest 
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
 
+allprojects {
+    repositories {
+        google()
+        jcenter()
 
+    }
+}
 
-Credits
--------
-
-Author: [Ahmed Faisal](https://github.com/afrussel)
-
-Dont forget to give 5 star. 😉😀😎
-
-
-![screenshot](https://github.com/afrussel/Android-Web-to-App/blob/master/example_weview.png "screenshot")
-
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
